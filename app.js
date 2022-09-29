@@ -26,7 +26,7 @@ app.patch('/metas', (req, res)=>{
     })
 });
 
-app.put('/metas', (req, res)=>{
+app.put('/business', (req, res)=>{
     res.status(200).json({
         empresa1: 'Globant',
         empresa2: 'Apple',
